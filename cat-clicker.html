@@ -7,19 +7,25 @@
 <body>
     <table>
         <tr>
-            <td align="center"><div id="name1"></div></td>
-            <td align="center"><div id="name2"></div></td>
-        </tr>
-        <tr>
-            <td><img id="cat1"/></td>
-            <td><img id="cat2"/></td>
-        </tr>
-        <tr>
-            <td align="center"><div id="counter1"></div></td>
-            <td align="center"><div id="counter2"></div></td>
-        </tr>
-    </table>
+            <td> <!-- The selectable list-->
+                <select id="catlist" size="10">
 
+                </select>
+            </td>
+            <td> <!-- The cat display area -->
+                <table>
+                    <tr>
+                        <td align="center"><div id="name"></div></td>
+                    </tr>
+                    <tr>
+                        <td><img id="image"/></td>
+                    </tr>
+                    <tr>
+                        <td align="center"><div id="counter"></div></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
     <script src="js/cat-clicker.js"></script>
 </body>
 </html>
