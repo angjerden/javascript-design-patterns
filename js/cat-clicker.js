@@ -47,8 +47,7 @@ select.onchange = function(e) {
     var selectedCat = catCollection.getCatById(selectedValue);
 
     //Setting name
-
-    name.innerHTML = selectedCat.name;
+    nameDiv.innerText = selectedCat.name;
 
     //Setting image
     img.src = selectedCat.src;
