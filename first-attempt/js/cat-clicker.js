@@ -21,16 +21,16 @@ var Cat = function(id, name, src) {
     this.counter = 0;
 };
 
-var axl = new Cat(1, 'Axl', 'rs/cat.jpg');
-var bae = new Cat(2, 'Bae', 'rs/cat2.jpg');
-var cal = new Cat(3, 'Cal', 'rs/cat3.jpg');
-var don = new Cat(4, 'Don', 'rs/cat.jpg');
-var eri = new Cat(5, 'Eri', 'rs/cat2.jpg');
-var fry = new Cat(6, 'Fry', 'rs/cat3.jpg');
-var gob = new Cat(7, 'Gob', 'rs/cat.jpg');
-var hal = new Cat(8, 'Hal', 'rs/cat2.jpg');
-var ims = new Cat(9, 'Ims', 'rs/cat3.jpg');
-var jeq = new Cat(10, 'Jeq', 'rs/cat.jpg');
+var axl = new Cat(1, 'Axl', '../rs/cat.jpg');
+var bae = new Cat(2, 'Bae', '../rs/cat2.jpg');
+var cal = new Cat(3, 'Cal', '../rs/cat3.jpg');
+var don = new Cat(4, 'Don', '../rs/cat.jpg');
+var eri = new Cat(5, 'Eri', '../rs/cat2.jpg');
+var fry = new Cat(6, 'Fry', '../rs/cat3.jpg');
+var gob = new Cat(7, 'Gob', '../rs/cat.jpg');
+var hal = new Cat(8, 'Hal', '../rs/cat2.jpg');
+var ims = new Cat(9, 'Ims', '../rs/cat3.jpg');
+var jeq = new Cat(10, 'Jeq', '../rs/cat.jpg');
 
 var catCollection = new CatCollection([
     axl, bae, cal, don, fry, gob, hal, ims, jeq
