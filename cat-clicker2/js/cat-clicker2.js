@@ -56,10 +56,8 @@ $(function() {
                 option.innerText = entry.name;
 
                 //Adding option to select
-                var select = $('#catlist')[0];
-                select.add(option)
-            });
-
+                this.select.add(option);
+            }, this);
 
             //Adding event to select
             this.select.onchange = function(e) {
