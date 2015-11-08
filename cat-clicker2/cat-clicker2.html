@@ -3,28 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <title>Cat-clicker 2</title>
+    <link rel="stylesheet" href="css/cat-clicker2.css">
 </head>
 <body>
-<table>
-    <tr>
-        <td valign="top"> <!-- The selectable list-->
-            <select id="catlist" size="10"></select>
-        </td>
-        <td> <!-- The cat display area -->
-            <table>
-                <tr>
-                    <td align="center"><div id="name"></div></td>
-                </tr>
-                <tr>
-                    <td><img id="image"/></td>
-                </tr>
-                <tr>
-                    <td align="center"><div id="counter"></div></td>
-                </tr>
-            </table>
-        </td>
-    </tr>
-</table>
+    <table>
+        <tr>
+            <td valign="top"> <!-- The selectable list-->
+                <select id="catlist" size="10"></select>
+            </td>
+            <td height="440"> <!-- The cat display area -->
+                <table>
+                    <tr>
+                        <td align="center"><div id="name"></div></td>
+                    </tr>
+                    <tr>
+                        <td><img id="image"/></td>
+                    </tr>
+                    <tr>
+                        <td align="center"><div id="counter"></div></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top">
+                <button type="button"
+                        id="adminButton">
+                    Admin
+                </button>
+            </td>
+            <td class="admin">
+                <table>
+                    <tr>
+                        <td>Name</td>
+                        <td><input type="text" id="nameInput"/></td>
+                    </tr>
+                    <tr>
+                        <td>Url</td>
+                        <td><input type="text" id="urlInput"/></td>
+                    </tr>
+                    <tr>
+                        <td>Clicks</td>
+                        <td><input type="number" id="clicksInput"/></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button type="button"
+                                    id="cancelButton">
+                                Cancel
+                            </button>
+                            <button type="button"
+                                    id="saveButton">
+                                Save
+                            </button>
+                        </td>
+
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
 <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script src="js/cat-classes.js"></script>
 <script src="js/cat-clicker2.js"></script>
